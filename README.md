@@ -1,17 +1,8 @@
 # Step-by-step
 Step by step: a hierarchical framework for multi-hop knowledge graph reasoning with reinforcement learning
 
-## Paper
-![algo](https://user-images.githubusercontent.com/101320059/157617989-4312d299-c0ca-4166-9694-ff7e3d4ab6fb.png)
-* We design a novel end-to-end hierarchical reinforcement learning paradigm for knowledge graph reasoning, which decomposes the task into a high-level process for relation detector and a low-level process for entity reasoner.
-* We propose a dynamic prospect mechanism for low-level policy assisted by the embedding based method. In this way, the action space after refinement guides the agent to a better and reasonable path.
-* We conduct experiments on four benchmark datasets (UMLS, Kinship, FB15K-237, NELL-995) comparing with baseline methods for knowledge graph reasoning, which verify the effectiveness and interpretability of our model.
-
 ### MindSpore Version
 https://github.com/CC1st/step-by-step-mindspore by Luo Xuewei
-
-## Result
-![result](https://user-images.githubusercontent.com/101320059/157618949-42f7336c-11d0-43df-a7b0-d03ff30a9504.png)
 
 ## Dependencies
 tqdm==4.9.0\
