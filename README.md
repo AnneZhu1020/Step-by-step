@@ -9,7 +9,8 @@ Step by step: a hierarchical framework for multi-hop knowledge graph reasoning w
 
 ### MindSpore Version
 by luoxuewei
-# Result
+
+## Result
 ![result](https://user-images.githubusercontent.com/101320059/157618949-42f7336c-11d0-43df-a7b0-d03ff30a9504.png)
 
 ## Dependencies
@@ -27,7 +28,7 @@ and run the following command to preprocess the datasets.
 ./experiment.sh configs/<dataset>.sh --process_data <gpu-ID>
 ```
 <dataset> is the name of any dataset folder in the ./data directory. In our experiments, the five datasets used are: umls, kinship, fb15k-237, wn18rr and nell-995. <gpu-ID> is a non-negative integer number representing the GPU index.
-
+  
 ## Train models
 Then the following commands can be used to train the proposed models and baselines in the paper. By default, dev set evaluation results will be printed when training terminates.
 
@@ -65,3 +66,6 @@ For example, the following command performs inference with the HRL models and pr
     ./experiment-rs.sh configs/NELL-995-rs.sh --inference <gpu-ID> --test
     ```    
   2. Leave out the `--test` flag during development.
+  
+### Change the hyperparameters
+To change the hyperparameters and other experiment set up, start from the configuration files.
