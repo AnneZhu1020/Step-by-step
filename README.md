@@ -8,7 +8,7 @@ Step by step: a hierarchical framework for multi-hop knowledge graph reasoning w
 * We conduct experiments on four benchmark datasets (UMLS, Kinship, FB15K-237, NELL-995) comparing with baseline methods for knowledge graph reasoning, which verify the effectiveness and interpretability of our model.
 
 ### MindSpore Version
-by luoxuewei
+https://github.com/CC1st/step-by-step-mindspore by Luo Xuewei
 
 ## Result
 ![result](https://user-images.githubusercontent.com/101320059/157618949-42f7336c-11d0-43df-a7b0-d03ff30a9504.png)
