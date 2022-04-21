@@ -1,5 +1,6 @@
 # Step-by-step
 Step by step: a hierarchical framework for multi-hop knowledge graph reasoning with reinforcement learning
+https://doi.org/10.1016/j.knosys.2022.108843
 
 ### MindSpore Version
 https://github.com/CC1st/step-by-step-mindspore by Luo Xuewei
